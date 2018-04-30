@@ -1,61 +1,111 @@
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aguillar Family Wine Festival</title>
+    <!--
+    Note: The reset.css is a CSS file that removes styling that
+    browsers apply to your HTML document. You'll learn about this in Intro to CSS.
+    -->
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <!--
+    Note: style.css is a CSS file that applies our styling to our
+    HTML document.
+    -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- Note: This is a custom font from Google. -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Aguillar Family Wine Festival</title>
-  <link rel="stylesheet" type="text/css" href="reset.css" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-</head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Annual Aguillar Family Wine Festival</h1>
+    </header>
 
-<body>
-  <header>
-    <h1>Annual Aguillar Family Wine Festival</h1>
-  </header>
+    <!-- Table -->
+    <div class="container">
+      <table>
+        <!-- Table head -->
+        <thead>
+          <tr>
+            <!--
+            Note: The 'colspan' attribute allows us to make our
+            table heading stretch across a certain number of columns.-->
+            <th colspan="2">
+              <h1>Wine Festival Schedule</h1>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h2>Time</h2>
+            </th>
+            <th>
+              <h2>Event</h2>
+            </th>
+          </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+          <!-- Row 1 -->
+          <tr>
+            <td class="left">
+              <h3>12:00 PM</h3>
+            </td>
+            <td>
+              <h3>Welcome Reception</h3>
+            </td>
+          </tr>
+          <!-- Row 2 -->
+          <tr>
+            <td class="left">
+              <h3>01:00 PM</h3>
+            </td>
+            <td>
+              <!-- Use HTML character entities: http://www.amp-what.com/unicode/search/ampersand -->
+              <h3>Storytelling &amp; Tasting</h3>
+            </td>
+          </tr>
+          <!-- Row 3 -->
+          <tr>
+            <td class="left">
+              <h3>02:00 PM</h3>
+            </td>
+            <td>
+              <h3>Wine Luncheon</h3>
+            </td>
+          </tr>
+          <!-- Row 4 -->
+          <tr>
+            <td class="left">
+              <h3>03:00 PM</h3>
+            </td>
+            <td>
+              <h3>Aguillar Family Wines</h3>
+            </td>
+          </tr>
+          <!-- Row 5 -->
+          <tr>
+            <td class="left">
+              <h3>04:00 PM</h3>
+            </td>
+            <td>
+              <!-- Use HTML character entities: http://www.amp-what.com/unicode/search/ampersand -->
+              <h3>Wine &amp; Cheese Tasting</h3>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- End of table -->
 
-  <div class="container">
-    <table>
-      <thead>
-        <tr>
-          <th colspan="2"><h1>Wine Festival Schedule</h1></th>
-        </tr>
-        <tr>
-          <th><h2>Time</h2></th>
-          <th><h2>Event</h2></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="left"><h3>12:00 PM</h3></td>
-          <td><h3>Welcome Reception</h3></td>
-        </tr>
-        <tr>
-          <td class="left"><h3>01:00 PM</h3></td>
-          <td><h3>Storytelling & Tasting</h3></td>
-        </tr>
-        <tr>
-          <td class="left"><h3>02:00 PM</h3></td>
-          <td><h3>Wine Luncheon</h3></td>
-        </tr>
-        <tr>
-          <td class="left"><h3>03:00 PM</h3></td>
-          <td><h3>Aguillar Family Wines</h3></td>
-        </tr>
-        <tr>
-          <td class="left"><h3>04:00 PM</h3></td>
-          <!-- # HTML character entities -->
-          <td><h3>Wine & Cheese Tasting</h3></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <!-- Footer -->
+    <footer>
+      <h3>Contact</h3>
+      <h3>Location</h3>
+      <h3>Privacy Policy</h3>
+    </footer>
 
-  <footer>
-    <h3>Contact</h3>
-    <h3>Location</h3>
-    <h3>Privacy Policy</h3>
-  </footer>
-</body>
+  </body>
 
-</html>
+  </html>
